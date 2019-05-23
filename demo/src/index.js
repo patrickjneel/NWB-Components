@@ -1,15 +1,15 @@
-import React, {Component} from 'react'
-import {render} from 'react-dom'
+import React, { Component } from 'react'
+import { render } from 'react-dom'
+// import { Route, Switch } from 'react-router-dom';
 
-import Example from '../../src'
 
 class Demo extends Component {
   render() {
-    return <div>
-      <h1>crop-paining Demo</h1>
-      <Example/>
+    return
+    <div>
+      Shit
     </div>
   }
 }
 
-render(<Demo/>, document.querySelector('#demo'))
+render(<Demo />, document.querySelector('#demo'))
