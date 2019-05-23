@@ -6,16 +6,14 @@ import configureStore, { history } from './configureStore'
 import CropPlaningHomepage from '../CropPlaningHomepage';
 import BaseLine from '../BaseLine'
 
-const cropPaining = configureStore();
+const cropStore = configureStore();
 
 const InputPrograms = () => (
-  <Provider store={cropPaining}>
+  <Provider store={cropStore}>
     <p>Stuff should go here</p>
     <ConnectedRouter history={history}>
-      <Switch>
-        <Route exact path="/sub" component={CropPlaningHomepage} />
-        <Route path="/sup" component={BaseLine} />
-      </Switch>
+      <Route exact path="/r2/sub" component={CropPlaningHomepage} />
+      <Route path="/r2/sup" component={BaseLine} />
     </ConnectedRouter>
   </Provider>
 );

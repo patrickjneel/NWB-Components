@@ -1,6 +1,6 @@
 {
   "name": "crop-paining",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "crop-paining React component",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -22,6 +22,7 @@
   "dependencies": {
     "connected-react-router": "^6.4.0",
     "history": "^4.9.0",
+    "query-string": "^6.5.0",
     "react-redux": "^7.0.3",
     "react-router-dom": "^5.0.0",
     "redux": "^4.0.1",

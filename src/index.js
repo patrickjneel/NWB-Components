@@ -14,5 +14,5 @@ export { Modal as Modal }
 export { Accordion as Accordion }
 
 //Redux Land
-export createStore from './redux'
+export suiReducers from './redux';
 

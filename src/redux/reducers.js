@@ -1,9 +1,12 @@
 import { combineReducers } from 'redux'
 import { connectRouter } from 'connected-react-router'
 
-const moron = () => [];
+const thing = (state = {}, action) => {
+  return state;
+}
+
 
 export default (history) => combineReducers({
   router: connectRouter(history),
-  moron,
+  thing,
 })
